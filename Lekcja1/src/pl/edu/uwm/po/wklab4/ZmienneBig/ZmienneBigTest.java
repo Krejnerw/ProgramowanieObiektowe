@@ -9,6 +9,5 @@ public class ZmienneBigTest {
 //        sie az do konca calesz szachownicy
         System.out.println(ZmienneBig.Zad4b(5));
         System.out.println(ZmienneBig.zad5(2000,0.06,3));
-
     }
 }

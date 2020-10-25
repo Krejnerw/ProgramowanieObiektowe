@@ -37,11 +37,9 @@ public class ZmienneBig{
     public static BigDecimal zad5(double k, double p, int n){
         BigDecimal kapital = new BigDecimal(String.valueOf(k));
         BigDecimal stopa = new BigDecimal(String.valueOf(p));
-        BigDecimal lata = new BigDecimal(String.valueOf(n));
         for(int i=0;i<n;i++){
             kapital = kapital.add(kapital.multiply(stopa));
         }
         return kapital.setScale(2, RoundingMode.HALF_UP);
     }
-
 }
