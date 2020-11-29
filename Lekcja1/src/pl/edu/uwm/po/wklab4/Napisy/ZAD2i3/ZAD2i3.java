@@ -14,7 +14,7 @@ public class ZAD2i3 {
         Scanner file = new Scanner(new File(nazwa));
         while(file.hasNextLine()){
             String line = file.nextLine();
-            countChar += ZAD1.countChar(nazwa,c);
+            countChar += ZAD1.countChar(line,c);
             }
         file.close();
         return countChar;
