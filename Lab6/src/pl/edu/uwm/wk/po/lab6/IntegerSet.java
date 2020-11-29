@@ -27,7 +27,9 @@ public class IntegerSet extends Object {
         return inter;
     }
     public void insertElement(int value){
-        this.tab[value-1] = true;
+        if (value<100 && value>=0) {
+            this.tab[value - 1] = true;
+        }
     }
     public void deleteElement(int value){
         this.tab[value-1] = false;
