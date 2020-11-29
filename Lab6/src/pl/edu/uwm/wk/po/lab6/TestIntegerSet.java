@@ -19,7 +19,7 @@ public class TestIntegerSet {
         System.out.println("Zbior B:\n"+zbior2.toString());
         System.out.println("Czy zb A == B?\n"+zbior.equals(zbior2));
 
-        zbior2.insertElement(87);
+        zbior2.insertElement(110);
         zbior2.insertElement(80);
         zbior2.insertElement(50);
         zbior2.insertElement(52);

@@ -1,4 +1,3 @@
-//package pl.edu.uwm.wk.po.lab7;
 package pl.imiajd.krejner;
 
 import javax.lang.model.type.NullType;
