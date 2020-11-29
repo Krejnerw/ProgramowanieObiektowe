@@ -23,6 +23,7 @@ class Student extends Osoba
         this.srednia_ocena = srednia_ocena;
     }
 
+    @Override
     public String getOpis()
     {
         return "kierunek studiów: " + kierunek;

@@ -20,6 +20,7 @@ class Pracownik extends Osoba
         return pobory;
     }
 
+    @Override
     public String getOpis()
     {
         return String.format("pracownik z pensją %.2f zł", pobory);
