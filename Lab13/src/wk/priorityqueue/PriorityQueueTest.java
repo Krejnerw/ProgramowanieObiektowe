@@ -2,7 +2,7 @@ package wk.priorityqueue;
 
 public class PriorityQueueTest {
     public static void main(String[] args){
-        ZadaniaPriorytetowe zadaniaPriorytetowe = new ZadaniaPriorytetowe();
+        ZadaniePriorytetowe zadaniaPriorytetowe = new ZadaniePriorytetowe();
         zadaniaPriorytetowe.dodaj(5,"wk.priorityqueue.Zadanie o wadze 5");
         zadaniaPriorytetowe.dodaj(9,"wk.priorityqueue.Zadanie o wadze 9");
         zadaniaPriorytetowe.dodaj(1,"wk.priorityqueue.Zadanie o wadze 1");
